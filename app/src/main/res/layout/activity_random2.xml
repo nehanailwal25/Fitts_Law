@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/absolute_id">
+    <Button
+        android:id="@+id/my_button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:text="Click Me" />
+
+    <Button
+        android:id="@+id/share_button"
+        android:layout_width="140dp"
+        android:layout_height="80dp"
+        android:layout_x="130dp"
+        android:layout_y="470dp"
+        android:backgroundTint="#01514B"
+        android:text="Share"
+        android:textStyle="bold"
+        app:cornerRadius="15dp" />
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="180dp"
+        android:layout_height="80dp"
+        android:layout_x="120dp"
+        android:layout_y="150dp"
+        android:backgroundTint="#95041A"
+        android:text="Start for Finger"
+        android:textStyle="bold"
+        app:cornerRadius="15dp"/>
+
+    <Button
+        android:id="@+id/restart_experiment_button"
+        android:layout_width="180dp"
+        android:layout_height="80dp"
+        android:layout_x="120dp"
+        android:layout_y="150dp"
+        android:backgroundTint="#95041A"
+        android:text="Start for Thumb"
+        android:textStyle="bold"
+        app:cornerRadius="15dp"/>
+
+
+
+</AbsoluteLayout>
